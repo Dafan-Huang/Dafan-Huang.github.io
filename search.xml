@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>测试文章</title>
-    <url>/2023/02/08/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<p>​        你好世界！！！</p>
-<p>​        黄大帆到此一游</p>
-<p>​        嘿嘿嘿！！</p>
+    <title>My new post</title>
+    <url>/2023/02/08/My-new-post/</url>
+    <content><![CDATA[<p>芜湖起飞！</p>
 ]]></content>
   </entry>
   <entry>
@@ -27,9 +25,11 @@
 ]]></content>
   </entry>
   <entry>
-    <title>My new post</title>
-    <url>/2023/02/08/My-new-post/</url>
-    <content><![CDATA[<p>芜湖起飞！</p>
+    <title>测试文章</title>
+    <url>/2023/02/08/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<p>​        你好世界！！！</p>
+<p>​        黄大帆到此一游</p>
+<p>​        嘿嘿嘿！！</p>
 ]]></content>
   </entry>
 </search>
