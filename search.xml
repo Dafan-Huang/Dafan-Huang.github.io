@@ -5,16 +5,16 @@
     <url>/2023/02/08/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <span id="more"></span>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
@@ -65,12 +65,95 @@
 <p>推荐在用户目录（例如：<code>C:/Users/username</code>）下新构建<code>workspace</code>文件夹，作为所有的项目目录的总文件夹。每次需要新构建项目时，可以直接在<code>workspace</code>文件夹下新构建文件夹V，赋S代码。</p>
 <p>假定「项目文件夹」为cpp-space，路径为<code>C:/Users/username/workspace/cpp-space</code>。在VS Code中依次点击「文件（File）」和「打开文件夹（Open File）」，选择<code>cpp-space</code>即可打开文件夹。</p>
 <h2 id="VS-Code-创建配置文件"><a href="#VS-Code-创建配置文件" class="headerlink" title="VS Code 创建配置文件"></a>VS Code 创建配置文件</h2><p>接下来我们在项目中新建配置文件（资源管理器或者VS Code都可以新建），结构目录如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">. </span><br><span class="line">└── cpp-space </span><br><span class="line">    ├── test.cpp </span><br><span class="line">    └── .vscode </span><br><span class="line">        ├── launch.json </span><br><span class="line">        └── tasks.json</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-none"><code class="language-none">. 
+└── cpp-space 
+    ├── test.cpp 
+    └── .vscode 
+        ├── launch.json 
+        └── tasks.json<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>以下是分别对应的文件的内容，直接复制粘贴即可。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    &quot;version&quot;: &quot;2.0.0&quot;,</span><br><span class="line">    &quot;tasks&quot;: [</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;label&quot;: &quot;g++ build&quot;,</span><br><span class="line">            &quot;command&quot;: &quot;C:\\Users\\username\\AppData\\Local\\Programs\\mingw64\\bin\\g++.exe&quot;,</span><br><span class="line">            &quot;args&quot;: [</span><br><span class="line">                &quot;-fdiagnostics-color=always&quot;,</span><br><span class="line">                &quot;-Wfatal-errors&quot;,</span><br><span class="line">                &quot;-Wextra&quot;,</span><br><span class="line">                &quot;-Wall&quot;,</span><br><span class="line">                &quot;-g&quot;,</span><br><span class="line">                &quot;$&#123;relativeFile&#125;&quot;,</span><br><span class="line">                &quot;-o&quot;,</span><br><span class="line">                &quot;$&#123;relativeFileDirname&#125;\\$&#123;fileBasenameNoExtension&#125;.exe&quot;,</span><br><span class="line">                &quot;-std=c++11&quot;</span><br><span class="line">            ],</span><br><span class="line">            &quot;options&quot;: &#123;</span><br><span class="line">                &quot;cwd&quot;: &quot;$&#123;workspaceFolder&#125;&quot;</span><br><span class="line">            &#125;,</span><br><span class="line">            &quot;problemMatcher&quot;: [</span><br><span class="line">                &quot;$gcc&quot;</span><br><span class="line">            ]</span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-task.json" data-language="task.json"><code class="language-task.json">&#123;
+    &quot;version&quot;: &quot;2.0.0&quot;,
+    &quot;tasks&quot;: [
+        &#123;
+            &quot;label&quot;: &quot;g++ build&quot;,
+            &quot;command&quot;: &quot;C:\\Users\\username\\AppData\\Local\\Programs\\mingw64\\bin\\g++.exe&quot;,
+            &quot;args&quot;: [
+                &quot;-fdiagnostics-color&#x3D;always&quot;,
+                &quot;-Wfatal-errors&quot;,
+                &quot;-Wextra&quot;,
+                &quot;-Wall&quot;,
+                &quot;-g&quot;,
+                &quot;$&#123;relativeFile&#125;&quot;,
+                &quot;-o&quot;,
+                &quot;$&#123;relativeFileDirname&#125;\\$&#123;fileBasenameNoExtension&#125;.exe&quot;,
+                &quot;-std&#x3D;c++11&quot;
+            ],
+            &quot;options&quot;: &#123;
+                &quot;cwd&quot;: &quot;$&#123;workspaceFolder&#125;&quot;
+            &#125;,
+            &quot;problemMatcher&quot;: [
+                &quot;$gcc&quot;
+            ]
+        &#125;
+    ]
+&#125;
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    &quot;version&quot;: &quot;0.2.0&quot;,</span><br><span class="line">    &quot;configurations&quot;: [</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;name&quot;: &quot;(GDB) Launch &amp; Pause&quot;,</span><br><span class="line">            &quot;type&quot;: &quot;cppdbg&quot;,</span><br><span class="line">            &quot;request&quot;: &quot;launch&quot;,</span><br><span class="line">            &quot;program&quot;: &quot;C:\\Windows\\System32\\cmd.exe&quot;,</span><br><span class="line">            &quot;args&quot;: [</span><br><span class="line">                &quot;/C&quot;,</span><br><span class="line">                &quot;$&#123;relativeFileDirname&#125;\\$&#123;fileBasenameNoExtension&#125;.exe&quot;,</span><br><span class="line">                &quot;&amp;&quot;,</span><br><span class="line">                &quot;pause&quot;</span><br><span class="line">            ],</span><br><span class="line">            &quot;stopAtEntry&quot;: false,</span><br><span class="line">            &quot;cwd&quot;: &quot;$&#123;workspaceFolder&#125;&quot;,</span><br><span class="line">            &quot;environment&quot;: [],</span><br><span class="line">            &quot;externalConsole&quot;: true,</span><br><span class="line">            &quot;MIMode&quot;: &quot;gdb&quot;,</span><br><span class="line">            &quot;miDebuggerPath&quot;: &quot;C:\\Users\\username\\AppData\\Local\\Programs\\mingw64\\bin\\gdb.exe&quot;,</span><br><span class="line">            &quot;setupCommands&quot;: [</span><br><span class="line">                &#123;</span><br><span class="line">                    &quot;description&quot;: &quot;Enable pretty-printing for gdb&quot;,</span><br><span class="line">                    &quot;text&quot;: &quot;-enable-pretty-printing&quot;,</span><br><span class="line">                    &quot;ignoreFailures&quot;: true</span><br><span class="line">                &#125;</span><br><span class="line">            ],</span><br><span class="line">            &quot;preLaunchTask&quot;: &quot;g++ build&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;name&quot;: &quot;(GDB) Launch&quot;,</span><br><span class="line">            &quot;type&quot;: &quot;cppdbg&quot;,</span><br><span class="line">            &quot;request&quot;: &quot;launch&quot;,</span><br><span class="line">            &quot;program&quot;: &quot;$&#123;fileDirname&#125;\\$&#123;fileBasenameNoExtension&#125;.exe&quot;,</span><br><span class="line">            &quot;args&quot;: [],</span><br><span class="line">            &quot;stopAtEntry&quot;: false,</span><br><span class="line">            &quot;cwd&quot;: &quot;$&#123;workspaceFolder&#125;&quot;,</span><br><span class="line">            &quot;environment&quot;: [],</span><br><span class="line">            &quot;externalConsole&quot;: true,</span><br><span class="line">            &quot;MIMode&quot;: &quot;gdb&quot;,</span><br><span class="line">            &quot;miDebuggerPath&quot;: &quot;C:\\Users\\username\\AppData\\Local\\Programs\\mingw64\\bin\\gdb.exe&quot;,</span><br><span class="line">            &quot;setupCommands&quot;: [</span><br><span class="line">                &#123;</span><br><span class="line">                    &quot;description&quot;: &quot;Enable pretty-printing for gdb&quot;,</span><br><span class="line">                    &quot;text&quot;: &quot;-enable-pretty-printing&quot;,</span><br><span class="line">                    &quot;ignoreFailures&quot;: true</span><br><span class="line">                &#125;</span><br><span class="line">            ],</span><br><span class="line">            &quot;preLaunchTask&quot;: &quot;g++ build&quot;,</span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-launch.json" data-language="launch.json"><code class="language-launch.json">&#123;
+    &quot;version&quot;: &quot;0.2.0&quot;,
+    &quot;configurations&quot;: [
+        &#123;
+            &quot;name&quot;: &quot;(GDB) Launch &amp; Pause&quot;,
+            &quot;type&quot;: &quot;cppdbg&quot;,
+            &quot;request&quot;: &quot;launch&quot;,
+            &quot;program&quot;: &quot;C:\\Windows\\System32\\cmd.exe&quot;,
+            &quot;args&quot;: [
+                &quot;&#x2F;C&quot;,
+                &quot;$&#123;relativeFileDirname&#125;\\$&#123;fileBasenameNoExtension&#125;.exe&quot;,
+                &quot;&amp;&quot;,
+                &quot;pause&quot;
+            ],
+            &quot;stopAtEntry&quot;: false,
+            &quot;cwd&quot;: &quot;$&#123;workspaceFolder&#125;&quot;,
+            &quot;environment&quot;: [],
+            &quot;externalConsole&quot;: true,
+            &quot;MIMode&quot;: &quot;gdb&quot;,
+            &quot;miDebuggerPath&quot;: &quot;C:\\Users\\username\\AppData\\Local\\Programs\\mingw64\\bin\\gdb.exe&quot;,
+            &quot;setupCommands&quot;: [
+                &#123;
+                    &quot;description&quot;: &quot;Enable pretty-printing for gdb&quot;,
+                    &quot;text&quot;: &quot;-enable-pretty-printing&quot;,
+                    &quot;ignoreFailures&quot;: true
+                &#125;
+            ],
+            &quot;preLaunchTask&quot;: &quot;g++ build&quot;,
+        &#125;,
+        &#123;
+            &quot;name&quot;: &quot;(GDB) Launch&quot;,
+            &quot;type&quot;: &quot;cppdbg&quot;,
+            &quot;request&quot;: &quot;launch&quot;,
+            &quot;program&quot;: &quot;$&#123;fileDirname&#125;\\$&#123;fileBasenameNoExtension&#125;.exe&quot;,
+            &quot;args&quot;: [],
+            &quot;stopAtEntry&quot;: false,
+            &quot;cwd&quot;: &quot;$&#123;workspaceFolder&#125;&quot;,
+            &quot;environment&quot;: [],
+            &quot;externalConsole&quot;: true,
+            &quot;MIMode&quot;: &quot;gdb&quot;,
+            &quot;miDebuggerPath&quot;: &quot;C:\\Users\\username\\AppData\\Local\\Programs\\mingw64\\bin\\gdb.exe&quot;,
+            &quot;setupCommands&quot;: [
+                &#123;
+                    &quot;description&quot;: &quot;Enable pretty-printing for gdb&quot;,
+                    &quot;text&quot;: &quot;-enable-pretty-printing&quot;,
+                    &quot;ignoreFailures&quot;: true
+                &#125;
+            ],
+            &quot;preLaunchTask&quot;: &quot;g++ build&quot;,
+        &#125;
+    ]
+&#125;
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>配置文件中包含了编译器路径：<code>tasks.json</code> 中的 <code>command</code> 字段和 <code>launch.json</code> 中的<strong>两个</strong> <code>miDebuggerPath</code> 字段。如果你将编译器安装到了其他路径，那么你需要修改这两个字段的值。</p>
 <p>具体地，你需要把 <code>C:\\Users\\username\\AppData\\Local\\Programs\\mingw64\\bin\\</code> 替换为实际的编译器路径。以 Dev-C++ 的默认编译器路径为例，<code>miDebuggerPath</code> 字段的值应为 <code>C:\\Program Files\\Dev-C++\\MinGW64\\bin\\gdb.exe</code>。</p>
@@ -78,7 +161,7 @@
 <p>实际上该配置文件中包含两种运行方案，你可以在 VS Code 最左侧的「运行与调试（Run and Debug）」栏中切换方案。两种方案的区别会在下文进行解释。</p>
 <h1 id="配置文件的解释"><a href="#配置文件的解释" class="headerlink" title="配置文件的解释"></a>配置文件的解释</h1><h2 id="tasks-json"><a href="#tasks-json" class="headerlink" title="tasks.json"></a>tasks.json</h2><p><code>tasks.json</code> 用于描述任务，这里我们只添加了一个任务：<code>g++ build</code>，用于生成可执行文件。</p>
 <p>注意看 <code>tasks.json</code> 的 <code>command</code> <code>args</code> 字段，实际上对应了如下命令。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:/Users/username/AppData/Local/Programs/mingw64/bin/g++.exe -fdiagnostics-color=always -Wfatal-errors -Wextra -Wall -g Code.cpp -o ./Code.exe -std=c++11</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-none"><code class="language-none">C:&#x2F;Users&#x2F;username&#x2F;AppData&#x2F;Local&#x2F;Programs&#x2F;mingw64&#x2F;bin&#x2F;g++.exe -fdiagnostics-color&#x3D;always -Wfatal-errors -Wextra -Wall -g Code.cpp -o .&#x2F;Code.exe -std&#x3D;c++11<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>这个命令就是我们手写编译时的命令，解释一下部分编译选项：</p>
 <ul>
