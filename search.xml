@@ -1,37 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/02/08/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>测试文章</title>
-    <url>/2023/02/08/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<p>Hllow world!<br>你好，世界！<br>Selam Dünya!<br>「こんにちは世界」<br>Bonjour le monde!<br>Hallo Welt!<br>Привет, мир!</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Visual Studio Code C/C++ 环境配置教程</title>
     <url>/2023/02/09/Visual-Studio-Code-C-C-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>Visual Studio Code（简称VS Code）是一款轻量、高效、美观的跨平台代码编辑器。它内置了对JavaScript、TypeScript 和Node.js 的支持，并为其他语言（如C++、C#、Java） 、Python、PHP、Go）和运行时（如 .NET 和 Unity）提供了丰富的扩展生态系统。</p>
+    <content><![CDATA[<h1><span id="写在前面">写在前面</span></h1><p>Visual Studio Code（简称VS Code）是一款轻量、高效、美观的跨平台代码编辑器。它内置了对JavaScript、TypeScript 和Node.js 的支持，并为其他语言（如C++、C#、Java） 、Python、PHP、Go）和运行时（如 .NET 和 Unity）提供了丰富的扩展生态系统。</p>
 <span id="more"></span>
 
-<h1 id="安装-C-C-环境"><a href="#安装-C-C-环境" class="headerlink" title="安装 C/C++ 环境"></a>安装 C/C++ 环境</h1><p>VS Code 是一个编辑器（编辑器）而不是 IDE（集成开发环境），所以想要 VS Code 能够编写或调试 C/C++ 程序，需要额外安装 C/C++ 环境。</p>
+<h1><span id="安装-cc-环境">安装 C/C++ 环境</span></h1><p>VS Code 是一个编辑器（编辑器）而不是 IDE（集成开发环境），所以想要 VS Code 能够编写或调试 C/C++ 程序，需要额外安装 C/C++ 环境。</p>
 <p>安装环境的方案有很多，主要分为两种：</p>
 <ul>
 <li>单独安装编译器，这样可以自行指定安装的编译器的版本。</li>
@@ -40,7 +15,7 @@
 <p>本文件将获取第一种方法：从 Winlibs 获取 GCC 和 MinGW-w64，并为其配置环境变量。</p>
 <p>官网：<a href="https://winlibs.com/">WinLibs 独立构建的 GCC 和 MinGW-w64 for Windows</a></p>
 <p>直接下载 Win64 | 没有 LLVM/Clang/LLD/LLDB | Zip archive 版本的安装包即可。然后我们将其解压到用户目录下的<code>AppData/Local/Programs</code>文件夹中，确保解压后路径为<code>C:/Users/username/AppData/Local/Programs/mingw64/</code>。</p>
-<h2 id="配置环境变化量"><a href="#配置环境变化量" class="headerlink" title="配置环境变化量"></a>配置环境变化量</h2><p>配置环境变化量的成功标志是否可以在指令行中调用<code>g++</code>。</p>
+<h2><span id="配置环境变化量">配置环境变化量</span></h2><p>配置环境变化量的成功标志是否可以在指令行中调用<code>g++</code>。</p>
 <p>步骤如下：</p>
 <ol>
 <li>快捷键<code>win + r</code>打开运行栏，键进入<code>SYSDM.CPL</code>并回车。即可打开「系统属性（系统属性）」页面。</li>
@@ -50,9 +25,9 @@
 </ol>
 <p>检查环境变化量是否配置成功，可以在命令行窗口中键进入<code>g++ --version</code>并返回。如果显示能够显示g++的版本信息就说明配置成功了。</p>
 <p>修改环境变量不会对已经启动的最终生成有效，因此修改完成后需要重新启动最终。同理VS Code也需要重新启动。</p>
-<h1 id="安装-VS-Code"><a href="#安装-VS-Code" class="headerlink" title="安装 VS Code"></a>安装 VS Code</h1><p>可以在官网下载，也可以在Microsoft Store中安装，也可以使用WinGet进行安装。</p>
+<h1><span id="安装-vs-code">安装 VS Code</span></h1><p>可以在官网下载，也可以在Microsoft Store中安装，也可以使用WinGet进行安装。</p>
 <p>官网：<a href="https://code.visualstudio.com/">Visual Studio Code</a></p>
-<h2 id="VS-Code-安装-C-C-插件"><a href="#VS-Code-安装-C-C-插件" class="headerlink" title="VS Code 安装 C/C++ 插件"></a>VS Code 安装 C/C++ 插件</h2><p>点击左侧「扩展（扩展）」进入应用商店，搜索 C/C++ 进行安装（发布者为 Microsoft）。</p>
+<h2><span id="vs-code-安装-cc-插件">VS Code 安装 C/C++ 插件</span></h2><p>点击左侧「扩展（扩展）」进入应用商店，搜索 C/C++ 进行安装（发布者为 Microsoft）。</p>
 <p>VS Code 可以通过安装插件来设置显示语言为中文（如果你需要的的话），插件名为<code>Chinese (Simplified) Language Pack for Visual Studio Code</code>。</p>
 <p>##VS Code 创建项目文件夹</p>
 <p>参考：<a href="https://code.visualstudio.com/docs/cpp/config-mingw">将 GCC 与 MinGW 结合使用</a></p>
@@ -64,7 +39,7 @@
 </ol>
 <p>推荐在用户目录（例如：<code>C:/Users/username</code>）下新构建<code>workspace</code>文件夹，作为所有的项目目录的总文件夹。每次需要新构建项目时，可以直接在<code>workspace</code>文件夹下新构建文件夹V，赋S代码。</p>
 <p>假定「项目文件夹」为cpp-space，路径为<code>C:/Users/username/workspace/cpp-space</code>。在VS Code中依次点击「文件（File）」和「打开文件夹（Open File）」，选择<code>cpp-space</code>即可打开文件夹。</p>
-<h2 id="VS-Code-创建配置文件"><a href="#VS-Code-创建配置文件" class="headerlink" title="VS Code 创建配置文件"></a>VS Code 创建配置文件</h2><p>接下来我们在项目中新建配置文件（资源管理器或者VS Code都可以新建），结构目录如下：</p>
+<h2><span id="vs-code-创建配置文件">VS Code 创建配置文件</span></h2><p>接下来我们在项目中新建配置文件（资源管理器或者VS Code都可以新建），结构目录如下：</p>
 <pre class="line-numbers language-none"><code class="language-none">. 
 └── cpp-space 
     ├── test.cpp 
@@ -159,7 +134,7 @@
 <p>具体地，你需要把 <code>C:\\Users\\username\\AppData\\Local\\Programs\\mingw64\\bin\\</code> 替换为实际的编译器路径。以 Dev-C++ 的默认编译器路径为例，<code>miDebuggerPath</code> 字段的值应为 <code>C:\\Program Files\\Dev-C++\\MinGW64\\bin\\gdb.exe</code>。</p>
 <p>配置完成后我们在 <code>test.cpp</code> 的代码页按 <code>F5</code>，即可编译并运行程序。我们在弹出的窗口键入 <code>1 2</code>，在第二行出现了 <code>3</code>，说明配置成功！</p>
 <p>实际上该配置文件中包含两种运行方案，你可以在 VS Code 最左侧的「运行与调试（Run and Debug）」栏中切换方案。两种方案的区别会在下文进行解释。</p>
-<h1 id="配置文件的解释"><a href="#配置文件的解释" class="headerlink" title="配置文件的解释"></a>配置文件的解释</h1><h2 id="tasks-json"><a href="#tasks-json" class="headerlink" title="tasks.json"></a>tasks.json</h2><p><code>tasks.json</code> 用于描述任务，这里我们只添加了一个任务：<code>g++ build</code>，用于生成可执行文件。</p>
+<h1><span id="配置文件的解释">配置文件的解释</span></h1><h2><span id="tasksjson">tasks.json</span></h2><p><code>tasks.json</code> 用于描述任务，这里我们只添加了一个任务：<code>g++ build</code>，用于生成可执行文件。</p>
 <p>注意看 <code>tasks.json</code> 的 <code>command</code> <code>args</code> 字段，实际上对应了如下命令。</p>
 <pre class="line-numbers language-none"><code class="language-none">C:&#x2F;Users&#x2F;username&#x2F;AppData&#x2F;Local&#x2F;Programs&#x2F;mingw64&#x2F;bin&#x2F;g++.exe -fdiagnostics-color&#x3D;always -Wfatal-errors -Wextra -Wall -g Code.cpp -o .&#x2F;Code.exe -std&#x3D;c++11<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
@@ -172,19 +147,53 @@
 <li><code>-g</code>: 编译器在编译时产生调试信息。</li>
 <li><code>-std=c++11</code>：使用 <code>C++11</code> 标准。</li>
 </ul>
-<h2 id="launch-json"><a href="#launch-json" class="headerlink" title="launch.json"></a>launch.json</h2><p><code>launch.json</code> 文件用于配置调试器，这里我们添加了两个任务：<code>(GDB) Launch &amp; Pause</code> 和 <code>(GDB) Launch</code>，分别代表 release 和 debug 模式下的运行。</p>
+<h2><span id="launchjson">launch.json</span></h2><p><code>launch.json</code> 文件用于配置调试器，这里我们添加了两个任务：<code>(GDB) Launch &amp; Pause</code> 和 <code>(GDB) Launch</code>，分别代表 release 和 debug 模式下的运行。</p>
 <p>当我们无需进行调试的时候，我们可以使用 <code>(GDB) Launch &amp; Pause</code>，程序运行结束后还要再按一次按键才会退出窗口。这和 Dev-C++ 的表现一致。</p>
 <p>当我们需要调试时，我们可以使用 <code>(GDB) Launch</code>，此时 VS Code 中设置的断点将会生效，并支持单步调试。</p>
 <p>解释一下配置文件的部分字段：</p>
 <ul>
-<li><code>program</code> 与 <code>args</code>：调用的程序和给定的参数。</li>
-<li><code>preLaunchTask</code>：调试器启动前执行的任务，这里执行的任务就是 <code>tasks.json</code> 的任务，需要保证该字段的值在 <code>tasks.json</code> 中有对应的 <code>label</code>。</li>
-<li><code>cwd</code>：调试器启动时的工作目录，这里设置为「项目文件夹」。</li>
+<li><p><code>program</code> 与 <code>args</code>：调用的程序和给定的参数。</p>
+</li>
+<li><p><code>preLaunchTask</code>：调试器启动前执行的任务，这里执行的任务就是 <code>tasks.json</code> 的任务，需要保证该字段的值在 <code>tasks.json</code> 中有对应的 <code>label</code>。</p>
+</li>
+<li><p><code>cwd</code>：调试器启动时的工作目录，这里设置为「项目文件夹」。</p>
+</li>
 </ul>
+<!-- toc -->
+
+
+
+<!-- tocstop -->
+
 <p>[TOC]</p>
 ]]></content>
       <tags>
         <tag>教程</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/02/08/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+<h2><span id="quick-start">Quick Start</span></h2><h3><span id="create-a-new-post">Create a new post</span></h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3><span id="run-server">Run server</span></h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3><span id="generate-static-files">Generate static files</span></h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3><span id="deploy-to-remote-sites">Deploy to remote sites</span></h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>测试文章</title>
+    <url>/2023/02/08/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<p>Hllow world!<br>你好，世界！<br>Selam Dünya!<br>「こんにちは世界」<br>Bonjour le monde!<br>Hallo Welt!<br>Привет, мир!</p>
+]]></content>
   </entry>
 </search>
