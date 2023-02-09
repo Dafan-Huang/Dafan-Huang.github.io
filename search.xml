@@ -48,6 +48,7 @@
         └── tasks.json<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>以下是分别对应的文件的内容，直接复制粘贴即可。</p>
+<p>task.json</p>
 <pre class="line-numbers language-task.json" data-language="task.json"><code class="language-task.json">&#123;
     &quot;version&quot;: &quot;2.0.0&quot;,
     &quot;tasks&quot;: [
@@ -76,6 +77,7 @@
 &#125;
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
+<p>launch.json </p>
 <pre class="line-numbers language-launch.json" data-language="launch.json"><code class="language-launch.json">&#123;
     &quot;version&quot;: &quot;0.2.0&quot;,
     &quot;configurations&quot;: [
