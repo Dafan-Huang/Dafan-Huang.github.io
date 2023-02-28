@@ -174,6 +174,12 @@
       </tags>
   </entry>
   <entry>
+    <title>测试文章</title>
+    <url>/2023/02/08/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<p>Hllow world!<br>你好，世界！<br>Selam Dünya!<br>「こんにちは世界」<br>Bonjour le monde!<br>Hallo Welt!<br>Привет, мир!</p>
+]]></content>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2023/02/08/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -193,10 +199,13 @@
 ]]></content>
   </entry>
   <entry>
-    <title>测试文章</title>
-    <url>/2023/02/08/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<p>Hllow world!<br>你好，世界！<br>Selam Dünya!<br>「こんにちは世界」<br>Bonjour le monde!<br>Hallo Welt!<br>Привет, мир!</p>
+    <title>要考试了</title>
+    <url>/2023/02/28/%E8%A6%81%E8%80%83%E8%AF%95%E4%BA%86/</url>
+    <content><![CDATA[<p>要考试了啦呼呼呼</p>
 ]]></content>
+      <tags>
+        <tag>瞎叽霸乱写的</tag>
+      </tags>
   </entry>
   <entry>
     <title>随笔</title>
