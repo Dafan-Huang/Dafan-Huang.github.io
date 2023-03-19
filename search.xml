@@ -231,15 +231,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>要考试了</title>
-    <url>/2023/02/28/%E8%A6%81%E8%80%83%E8%AF%95%E4%BA%86/</url>
-    <content><![CDATA[<p>要考试了啦呼呼呼<br>考完了<br>成绩单</p>
-]]></content>
-      <tags>
-        <tag>瞎叽霸乱写的</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>随笔</title>
     <url>/2023/02/16/%E9%9A%8F%E7%AC%94/</url>
     <content><![CDATA[<h1><span id="标题一-就是井号啦">标题一 “就是井号啦”</span></h1><h2><span id="标题二-好多井号啦">标题二 “好多井号啦”</span></h2><h3><span id="标题三">标题三</span></h3><span id="more"></span>
@@ -311,6 +302,101 @@
 <p><del>反正也没人看</del></p>
 <p><del>对吧!</del></p>
 <p>[^hdf]: Hello world!</p>
+]]></content>
+      <tags>
+        <tag>瞎叽霸乱写的</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>考试</title>
+    <url>/2023/02/28/%E8%A6%81%E8%80%83%E8%AF%95%E4%BA%86/</url>
+    <content><![CDATA[<p>要考试了<br>啦呼呼呼 </p>
+<span id="more"></span>
+<p>2023、3、1（C语言）<br>2023、3、5（高等数学）<br>考完了————自我感觉良好<br>#成绩单#</p>
+<table>
+<thead>
+<tr>
+<th>科目</th>
+<th>成绩</th>
+<th>学分</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>高等数学上</td>
+<td>96</td>
+<td>4.60</td>
+</tr>
+<tr>
+<td>高级语言程序设计</td>
+<td>92</td>
+<td>4.20</td>
+</tr>
+<tr>
+<td>大学英语Ⅰ</td>
+<td>84</td>
+<td>3.40</td>
+</tr>
+<tr>
+<td>物理学概论</td>
+<td>85</td>
+<td>3.50</td>
+</tr>
+<tr>
+<td>思想道德与法治</td>
+<td>92</td>
+<td>4.20</td>
+</tr>
+<tr>
+<td>军事理论</td>
+<td>89</td>
+<td>3.90</td>
+</tr>
+<tr>
+<td>军训</td>
+<td>95</td>
+<td>4.50</td>
+</tr>
+<tr>
+<td>德法实践</td>
+<td>85</td>
+<td>3.50</td>
+</tr>
+<tr>
+<td>党史</td>
+<td>99</td>
+<td>4.90</td>
+</tr>
+<tr>
+<td>红色校史</td>
+<td>90</td>
+<td>4.00</td>
+</tr>
+<tr>
+<td>体育Ⅰ</td>
+<td>83</td>
+<td>3.30</td>
+</tr>
+<tr>
+<td>形势与政策Ⅰ</td>
+<td>95</td>
+<td>4.50</td>
+</tr>
+<tr>
+<td>邮政管理导论</td>
+<td>94</td>
+<td>4.40</td>
+</tr>
+<tr>
+<td>大学生心理健康</td>
+<td>95</td>
+<td>4.50</td>
+</tr>
+<tr>
+<td>总学分24.50</td>
+<td>已修学分24.50</td>
+<td>平均绩点4.08排名（7/62） 11.29%</td>
+</tr>
+</tbody></table>
 ]]></content>
       <tags>
         <tag>瞎叽霸乱写的</tag>
