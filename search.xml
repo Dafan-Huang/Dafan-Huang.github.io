@@ -20,36 +20,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>南邮图书管理系统</title>
-    <url>/2023/03/19/%E5%8D%97%E9%82%AE%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<h1><span id="程序设计题南邮图书馆管理系统">程序设计题：南邮图书馆管理系统</span></h1><span id="more"></span>
-
-<p>出题人：周剑</p>
-<p><strong>面向专业：光电信息科学与工程</strong></p>
-<p><strong>难度等级：4</strong></p>
-<h2><span id="1-问题描述">1 问题描述</span></h2><p>该系统要求建立一个南邮图书馆管理系统，并具有排序、查找、计算、显示等功能。通过此课题，熟练掌握文件、数组、指针的各种操作，以及一些算法思想的应用。</p>
-<p>图书的信息应包括：索引号，名称，馆藏地址（三牌楼、仙林）、类别（人文、科技、外语等），数量，价格，入库日期，归还日期，借阅次数，借阅状态（可借、不可借）。</p>
-<h2><span id="2-功能要求">2 功能要求</span></h2><p>代码要能提供以下几个基本功能。</p>
-<p>（1）对已图书信息进行更新操作，包括添加和删除一种书的信息、修改图书信息（例如图书被借阅，书的数目减1，借阅次数加1，如果数量为0则状态为不可借）；</p>
-<p>（2）通过按图书的名称查询图书信息；</p>
-<p>（3）显示所有即将到期的图书（归还日期在三天之内）；</p>
-<p>（4）按借阅次数对所有图书进行排序；</p>
-<p>（5）将图书的所有相关信息内容存为文件。</p>
-<p><strong>选做要求</strong>：</p>
-<p>（1）对用户的输入进行一定的正确性检查。</p>
-<p>（2）采用Turbo C/C++、MFC等开发工具，实现彩色或图形操作界面。</p>
-<p>（3）设计一个功能选项“AI玩家”。当选中此功能后，用电脑模拟用户来玩猜数字游戏，并将整个游戏的过程输出至屏幕或文本文件。</p>
-<h2><span id="3-其他要求">3 其他要求</span></h2><p>（1）界面友好，输入信息符合逻辑。</p>
-<p>（2）注释详细：每个变量都要求有注释说明用途；函数有注释说明功能，对参数、返回值也要以注释的形式说明用途；关键的语句段要求有注释解释。</p>
-<p>（3）程序的层次清晰，可读性强。</p>
-<p>（4）变量、函数命名符合规范。</p>
-<h2><span id="4-开发环境">4 开发环境</span></h2><p>可以选择TC2.0、TC3.0、VC++6.0等开发环境，或者与老师讨论，选择自己熟悉的开发工具与平台。</p>
-]]></content>
-      <tags>
-        <tag>程序设计题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Visual Studio Code C/C++ 环境配置教程</title>
     <url>/2023/02/09/Visual-Studio-Code-C-C-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<h1><span id="写在前面">写在前面</span></h1><p>Visual Studio Code（简称VS Code）是一款轻量、高效、美观的跨平台代码编辑器。它内置了对JavaScript、TypeScript 和Node.js 的支持，并为其他语言（如C++、C#、Java） 、Python、PHP、Go）和运行时（如 .NET 和 Unity）提供了丰富的扩展生态系统。</p>
@@ -223,6 +193,44 @@
       </tags>
   </entry>
   <entry>
+    <title>南邮图书管理系统</title>
+    <url>/2023/03/19/%E5%8D%97%E9%82%AE%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<h1><span id="程序设计题南邮图书馆管理系统">程序设计题：南邮图书馆管理系统</span></h1><span id="more"></span>
+
+<p>出题人：周剑</p>
+<p><strong>面向专业：光电信息科学与工程</strong></p>
+<p><strong>难度等级：4</strong></p>
+<h2><span id="1-问题描述">1 问题描述</span></h2><p>该系统要求建立一个南邮图书馆管理系统，并具有排序、查找、计算、显示等功能。通过此课题，熟练掌握文件、数组、指针的各种操作，以及一些算法思想的应用。</p>
+<p>图书的信息应包括：索引号，名称，馆藏地址（三牌楼、仙林）、类别（人文、科技、外语等），数量，价格，入库日期，归还日期，借阅次数，借阅状态（可借、不可借）。</p>
+<h2><span id="2-功能要求">2 功能要求</span></h2><p>代码要能提供以下几个基本功能。</p>
+<p>（1）对已图书信息进行更新操作，包括添加和删除一种书的信息、修改图书信息（例如图书被借阅，书的数目减1，借阅次数加1，如果数量为0则状态为不可借）；</p>
+<p>（2）通过按图书的名称查询图书信息；</p>
+<p>（3）显示所有即将到期的图书（归还日期在三天之内）；</p>
+<p>（4）按借阅次数对所有图书进行排序；</p>
+<p>（5）将图书的所有相关信息内容存为文件。</p>
+<p><strong>选做要求</strong>：</p>
+<p>（1）对用户的输入进行一定的正确性检查。</p>
+<p>（2）采用Turbo C/C++、MFC等开发工具，实现彩色或图形操作界面。</p>
+<p>（3）设计一个功能选项“AI玩家”。当选中此功能后，用电脑模拟用户来玩猜数字游戏，并将整个游戏的过程输出至屏幕或文本文件。</p>
+<h2><span id="3-其他要求">3 其他要求</span></h2><p>（1）界面友好，输入信息符合逻辑。</p>
+<p>（2）注释详细：每个变量都要求有注释说明用途；函数有注释说明功能，对参数、返回值也要以注释的形式说明用途；关键的语句段要求有注释解释。</p>
+<p>（3）程序的层次清晰，可读性强。</p>
+<p>（4）变量、函数命名符合规范。</p>
+<h2><span id="4-开发环境">4 开发环境</span></h2><p>可以选择TC2.0、TC3.0、VC++6.0等开发环境，或者与老师讨论，选择自己熟悉的开发工具与平台。</p>
+]]></content>
+      <tags>
+        <tag>程序设计题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试文章</title>
+    <url>/2023/02/08/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<p>你好，世界！<br>Hllow world!<br>Добрый день, Мир!<br>Bonjour, le monde!</p>
+<span id="more"></span>
+<p>「こんにちは世界」<br>Selam Dünya!<br>Bonjour le monde!<br>Hallo Welt!<br>Привет, мир!<br>:H:e:l:l:o: :W:o:r:l:d!<br>!dlroW olleH<br>沵恏，迣鎅!<br>مرحبا العالم!<br>Tere maailm!<br>Përshëndetje bota!<br>ሰላም ዓለም!<br>ନିଶ୍ଚିତ ବିଶ୍ବ!<br>ipberrhTeoSnae<br>Salut mundo!<br>hola mundu!<br>Kamisaki uraqpachana!<br>ᑳᑮᔮ ᒋᐃᑕᐃᔑ ᒡ<br>Байрай yáтаг!<br>kenaammachuBarr<br>Witaj świat!<br>Здравей, свят!</p>
+]]></content>
+  </entry>
+  <entry>
     <title>无聊的大学生活</title>
     <url>/2023/03/24/%E6%97%A0%E8%81%8A%E7%9A%84%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/</url>
     <content><![CDATA[<p>真的好无聊，天天下雨。</p>
@@ -243,14 +251,6 @@
       <tags>
         <tag>无聊</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>测试文章</title>
-    <url>/2023/02/08/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<p>你好，世界！<br>Hllow world!<br>Добрый день, Мир!<br>Bonjour, le monde!</p>
-<span id="more"></span>
-<p>「こんにちは世界」<br>Selam Dünya!<br>Bonjour le monde!<br>Hallo Welt!<br>Привет, мир!<br>:H:e:l:l:o: :W:o:r:l:d!<br>!dlroW olleH<br>沵恏，迣鎅!<br>مرحبا العالم!<br>Tere maailm!<br>Përshëndetje bota!<br>ሰላም ዓለም!<br>ନିଶ୍ଚିତ ବିଶ୍ବ!<br>ipberrhTeoSnae<br>Salut mundo!<br>hola mundu!<br>Kamisaki uraqpachana!<br>ᑳᑮᔮ ᒋᐃᑕᐃᔑ ᒡ<br>Байрай yáтаг!<br>kenaammachuBarr<br>Witaj świat!<br>Здравей, свят!</p>
-]]></content>
   </entry>
   <entry>
     <title>考试</title>
