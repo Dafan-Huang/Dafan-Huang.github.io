@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2023/02/08/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+<h2><span id="quick-start">Quick Start</span></h2><h3><span id="create-a-new-post">Create a new post</span></h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3><span id="run-server">Run server</span></h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3><span id="generate-static-files">Generate static files</span></h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3><span id="deploy-to-remote-sites">Deploy to remote sites</span></h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>Visual Studio Code C/C++ 环境配置教程</title>
     <url>/2023/02/09/Visual-Studio-Code-C-C-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<h1><span id="写在前面">写在前面</span></h1><p>Visual Studio Code（简称VS Code）是一款轻量、高效、美观的跨平台代码编辑器。它内置了对JavaScript、TypeScript 和Node.js 的支持，并为其他语言（如C++、C#、Java） 、Python、PHP、Go）和运行时（如 .NET 和 Unity）提供了丰富的扩展生态系统。</p>
@@ -174,23 +193,26 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/02/08/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+    <title>无聊的大学生活</title>
+    <url>/2023/03/24/%E6%97%A0%E8%81%8A%E7%9A%84%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/</url>
+    <content><![CDATA[<p>真的好无聊，天天下雨。</p>
 <span id="more"></span>
-<h2><span id="quick-start">Quick Start</span></h2><h3><span id="create-a-new-post">Create a new post</span></h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3><span id="run-server">Run server</span></h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3><span id="generate-static-files">Generate static files</span></h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3><span id="deploy-to-remote-sites">Deploy to remote sites</span></h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>下了一周了，不是下雨就是刮风，亦或是阴天！</p>
+<p>感冒鼻塞，呼吸困难！</p>
+<p>感觉要寄掉了！</p>
+<p>严重怀疑自己是不是得了甲流，</p>
+<p>有没有人能来救一下啊！</p>
+<p>送点药也行啊！</p>
+<p>啊啊啊啊啊啊</p>
+<p>在这里发癫</p>
+<p>(。-ω-)zzz</p>
+<p>就这样吧！</p>
+<p>拜拜</p>
 ]]></content>
+      <tags>
+        <tag>无聊</tag>
+      </tags>
   </entry>
   <entry>
     <title>南邮图书管理系统</title>
@@ -220,28 +242,6 @@
 ]]></content>
       <tags>
         <tag>程序设计题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>无聊的大学生活</title>
-    <url>/2023/03/24/%E6%97%A0%E8%81%8A%E7%9A%84%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/</url>
-    <content><![CDATA[<p>真的好无聊，天天下雨。</p>
-<span id="more"></span>
-
-<p>下了一周了，不是下雨就是刮风，亦或是阴天！</p>
-<p>感冒鼻塞，呼吸困难！</p>
-<p>感觉要寄掉了！</p>
-<p>严重怀疑自己是不是得了甲流，</p>
-<p>有没有人能来救一下啊！</p>
-<p>送点药也行啊！</p>
-<p>啊啊啊啊啊啊</p>
-<p>在这里发癫</p>
-<p>(。-ω-)zzz</p>
-<p>就这样吧！</p>
-<p>拜拜</p>
-]]></content>
-      <tags>
-        <tag>无聊</tag>
       </tags>
   </entry>
   <entry>
