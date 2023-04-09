@@ -223,6 +223,23 @@
       </tags>
   </entry>
   <entry>
+    <title>南京游记</title>
+    <url>/2023/04/09/%E5%8D%97%E4%BA%AC%E6%B8%B8%E8%AE%B0/</url>
+    <content><![CDATA[<p>你想去哪里玩呢？</p>
+<p>玄武湖、鸡鸣寺、明孝陵、音乐台、美龄宫、明城墙、</p>
+<p>夫子庙、新街口、大报恩寺、老门东、南京眼、颐和路、</p>
+<p>阅江楼、中山码头、紫峰大厦、珍珠泉、栖霞山、欢乐谷、牛首山</p>
+<span id="more"></span>
+
+<p>玄武湖：<br>鸡鸣寺：<br>明孝陵：<br>音乐台：<br>美龄宫：<br>明城墙：<br>夫子庙：<br>新街口：<br>大报恩寺：<br>老门东：<br>南京眼：<br>颐和路：<br>阅江楼：<br>中山码头：<br>紫峰大厦：<br>珍珠泉：<br>栖霞山：<br>欢乐谷：<br>牛首山：</p>
+<p>未完待续······</p>
+<p>我都能陪你一起！</p>
+]]></content>
+      <tags>
+        <tag>旅游</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>无聊的大学生活</title>
     <url>/2023/03/24/%E6%97%A0%E8%81%8A%E7%9A%84%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/</url>
     <content><![CDATA[<p>真的好无聊，天天下雨。</p>
@@ -251,6 +268,83 @@
 <span id="more"></span>
 <p>「こんにちは世界」<br>Selam Dünya!<br>Bonjour le monde!<br>Hallo Welt!<br>Привет, мир!<br>:H:e:l:l:o: :W:o:r:l:d!<br>!dlroW olleH<br>沵恏，迣鎅!<br>مرحبا العالم!<br>Tere maailm!<br>Përshëndetje bota!<br>ሰላም ዓለም!<br>ନିଶ୍ଚିତ ବିଶ୍ବ!<br>ipberrhTeoSnae<br>Salut mundo!<br>hola mundu!<br>Kamisaki uraqpachana!<br>ᑳᑮᔮ ᒋᐃᑕᐃᔑ ᒡ<br>Байрай yáтаг!<br>kenaammachuBarr<br>Witaj świat!<br>Здравей, свят!</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>随笔</title>
+    <url>/2023/02/16/%E9%9A%8F%E7%AC%94/</url>
+    <content><![CDATA[<h1><span id="标题一-就是井号啦">标题一 “就是井号啦”</span></h1><h2><span id="标题二-好多井号啦">标题二 “好多井号啦”</span></h2><h3><span id="标题三">标题三</span></h3><span id="more"></span>
+
+<h4><span id="标题四">标题四</span></h4><h5><span id="标题五">标题五</span></h5><h6><span id="标题六">标题六</span></h6><blockquote>
+<p>引用 “&gt; “</p>
+</blockquote>
+<p>有序列表</p>
+<ol>
+<li>“1. “</li>
+<li></li>
+<li></li>
+</ol>
+<p>无序列表</p>
+<ul>
+<li>“- “</li>
+<li></li>
+<li></li>
+</ul>
+<p>待办事项</p>
+<ul>
+<li><p><input disabled type="checkbox">  “- [ ] “</p>
+</li>
+<li><p><input checked disabled type="checkbox">  “- [ ] “</p>
+</li>
+</ul>
+<p>数学公式</p>
+<p>$$<br>公式内容 “我也不会啦”<br>$$</p>
+<p>表格</p>
+<p>| 姓名 | 年龄 | 成绩 |</p>
+<table>
+<thead>
+<tr>
+<th>: — :</th>
+<th></th>
+<th>: —</th>
+<th></th>
+<th>—:</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>“qiqiguaiguai,meiyounaodai”</p>
+<p>脚注：</p>
+<p>你好世界！[^hdf]</p>
+<p>横线：”—“</p>
+<hr>
+<p><a href="WWW.example.com">链接</a></p>
+<p><a href="www.example.com">lianjie</a></p>
+<p><em>斜体</em></p>
+<p><strong>加粗</strong></p>
+<p><code>printf(&quot;hello world!&quot;);</code></p>
+<p><u>吓坏先</u>     “下划线”</p>
+<p>表情</p>
+<p>:baby:</p>
+<p>:stuck_out_tongue_closed_eyes:</p>
+<p><a href="https://unicode.org/emoji/charts/full-emoji-list.html">表情代码</a></p>
+<p>$行内数学公式e^ie^π+1=0$</p>
+<p>下标： H<del>2</del>O “~ ~”</p>
+<p>上标：X^2^+Y^2^=Z^2^ “^ ^”</p>
+<p>==高亮==</p>
+<p>垃圾就这里:wastebasket:到吧!</p>
+<p><del>反正也没人看</del></p>
+<p><del>对吧!</del></p>
+<p>[^hdf]: Hello world!</p>
+]]></content>
+      <tags>
+        <tag>瞎叽霸乱写的</tag>
+      </tags>
   </entry>
   <entry>
     <title>考试</title>
@@ -342,83 +436,6 @@
 <td>平均绩点4.08排名（8/61） 13%</td>
 </tr>
 </tbody></table>
-]]></content>
-      <tags>
-        <tag>瞎叽霸乱写的</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>随笔</title>
-    <url>/2023/02/16/%E9%9A%8F%E7%AC%94/</url>
-    <content><![CDATA[<h1><span id="标题一-就是井号啦">标题一 “就是井号啦”</span></h1><h2><span id="标题二-好多井号啦">标题二 “好多井号啦”</span></h2><h3><span id="标题三">标题三</span></h3><span id="more"></span>
-
-<h4><span id="标题四">标题四</span></h4><h5><span id="标题五">标题五</span></h5><h6><span id="标题六">标题六</span></h6><blockquote>
-<p>引用 “&gt; “</p>
-</blockquote>
-<p>有序列表</p>
-<ol>
-<li>“1. “</li>
-<li></li>
-<li></li>
-</ol>
-<p>无序列表</p>
-<ul>
-<li>“- “</li>
-<li></li>
-<li></li>
-</ul>
-<p>待办事项</p>
-<ul>
-<li><p><input disabled type="checkbox">  “- [ ] “</p>
-</li>
-<li><p><input checked disabled type="checkbox">  “- [ ] “</p>
-</li>
-</ul>
-<p>数学公式</p>
-<p>$$<br>公式内容 “我也不会啦”<br>$$</p>
-<p>表格</p>
-<p>| 姓名 | 年龄 | 成绩 |</p>
-<table>
-<thead>
-<tr>
-<th>: — :</th>
-<th></th>
-<th>: —</th>
-<th></th>
-<th>—:</th>
-</tr>
-</thead>
-<tbody><tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<p>“qiqiguaiguai,meiyounaodai”</p>
-<p>脚注：</p>
-<p>你好世界！[^hdf]</p>
-<p>横线：”—“</p>
-<hr>
-<p><a href="WWW.example.com">链接</a></p>
-<p><a href="www.example.com">lianjie</a></p>
-<p><em>斜体</em></p>
-<p><strong>加粗</strong></p>
-<p><code>printf(&quot;hello world!&quot;);</code></p>
-<p><u>吓坏先</u>     “下划线”</p>
-<p>表情</p>
-<p>:baby:</p>
-<p>:stuck_out_tongue_closed_eyes:</p>
-<p><a href="https://unicode.org/emoji/charts/full-emoji-list.html">表情代码</a></p>
-<p>$行内数学公式e^ie^π+1=0$</p>
-<p>下标： H<del>2</del>O “~ ~”</p>
-<p>上标：X^2^+Y^2^=Z^2^ “^ ^”</p>
-<p>==高亮==</p>
-<p>垃圾就这里:wastebasket:到吧!</p>
-<p><del>反正也没人看</del></p>
-<p><del>对吧!</del></p>
-<p>[^hdf]: Hello world!</p>
 ]]></content>
       <tags>
         <tag>瞎叽霸乱写的</tag>
