@@ -251,23 +251,6 @@
       </tags>
   </entry>
   <entry>
-    <title>南京游记</title>
-    <url>/2023/04/09/%E5%8D%97%E4%BA%AC%E6%B8%B8%E8%AE%B0/</url>
-    <content><![CDATA[<p>你想去哪里玩呢？</p>
-<p>玄武湖、鸡鸣寺、明孝陵、音乐台、美龄宫、明城墙、</p>
-<p>夫子庙、新街口、大报恩寺、老门东、南京眼、颐和路、</p>
-<p>阅江楼、中山码头、紫峰大厦、珍珠泉、栖霞山、欢乐谷、牛首山</p>
-<span id="more"></span>
-
-<p>玄武湖：<br>鸡鸣寺：<br>明孝陵：<br>音乐台：<br>美龄宫：<br>明城墙：<br>夫子庙：<br>新街口：<br>大报恩寺：<br>老门东：<br>南京眼：<br>颐和路：<br>阅江楼：<br>中山码头：<br>紫峰大厦：<br>珍珠泉：<br>栖霞山：<br>欢乐谷：<br>牛首山：</p>
-<p>未完待续······</p>
-<p>我都能陪你一起！</p>
-]]></content>
-      <tags>
-        <tag>旅游</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2023/02/08/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -285,6 +268,23 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>南京游记</title>
+    <url>/2023/04/09/%E5%8D%97%E4%BA%AC%E6%B8%B8%E8%AE%B0/</url>
+    <content><![CDATA[<p>你想去哪里玩呢？</p>
+<p>玄武湖、鸡鸣寺、明孝陵、音乐台、美龄宫、明城墙、</p>
+<p>夫子庙、新街口、大报恩寺、老门东、南京眼、颐和路、</p>
+<p>阅江楼、中山码头、紫峰大厦、珍珠泉、栖霞山、欢乐谷、牛首山</p>
+<span id="more"></span>
+
+<p>玄武湖：<br>鸡鸣寺：<br>明孝陵：<br>音乐台：<br>美龄宫：<br>明城墙：<br>夫子庙：<br>新街口：<br>大报恩寺：<br>老门东：<br>南京眼：<br>颐和路：<br>阅江楼：<br>中山码头：<br>紫峰大厦：<br>珍珠泉：<br>栖霞山：<br>欢乐谷：<br>牛首山：</p>
+<p>未完待续······</p>
+<p>我都能陪你一起！</p>
+]]></content>
+      <tags>
+        <tag>旅游</tag>
+      </tags>
   </entry>
   <entry>
     <title>南邮图书管理系统</title>
@@ -323,100 +323,5 @@
 <span id="more"></span>
 <p>「こんにちは世界」<br>Selam Dünya!<br>Bonjour le monde!<br>Hallo Welt!<br>Привет, мир!<br>:H:e:l:l:o: :W:o:r:l:d!<br>!dlroW olleH<br>沵恏，迣鎅!<br>مرحبا العالم!<br>Tere maailm!<br>Përshëndetje bota!<br>ሰላም ዓለም!<br>ନିଶ୍ଚିତ ବିଶ୍ବ!<br>ipberrhTeoSnae<br>Salut mundo!<br>hola mundu!<br>Kamisaki uraqpachana!<br>ᑳᑮᔮ ᒋᐃᑕᐃᔑ ᒡ<br>Байрай yáтаг!<br>kenaammachuBarr<br>Witaj świat!<br>Здравей, свят!</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>考试</title>
-    <url>/2023/02/28/%E8%A6%81%E8%80%83%E8%AF%95%E4%BA%86/</url>
-    <content><![CDATA[<p>要考试了<br>啦呼呼呼 </p>
-<span id="more"></span>
-<p>2023、3、1（C语言）<br>2023、3、5（高等数学）<br>考完了————自我感觉良好<br>#成绩单#</p>
-<table>
-<thead>
-<tr>
-<th>科目</th>
-<th>成绩</th>
-<th>学分</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>高等数学上</td>
-<td>96</td>
-<td>4.60</td>
-</tr>
-<tr>
-<td>高级语言程序设计</td>
-<td>92</td>
-<td>4.20</td>
-</tr>
-<tr>
-<td>大学英语Ⅰ</td>
-<td>84</td>
-<td>3.40</td>
-</tr>
-<tr>
-<td>物理学概论</td>
-<td>85</td>
-<td>3.50</td>
-</tr>
-<tr>
-<td>思想道德与法治</td>
-<td>92</td>
-<td>4.20</td>
-</tr>
-<tr>
-<td>军事理论</td>
-<td>89</td>
-<td>3.90</td>
-</tr>
-<tr>
-<td>军训</td>
-<td>95</td>
-<td>4.50</td>
-</tr>
-<tr>
-<td>德法实践</td>
-<td>85</td>
-<td>3.50</td>
-</tr>
-<tr>
-<td>党史</td>
-<td>99</td>
-<td>4.90</td>
-</tr>
-<tr>
-<td>红色校史</td>
-<td>90</td>
-<td>4.00</td>
-</tr>
-<tr>
-<td>体育Ⅰ</td>
-<td>83</td>
-<td>3.30</td>
-</tr>
-<tr>
-<td>形势与政策Ⅰ</td>
-<td>95</td>
-<td>4.50</td>
-</tr>
-<tr>
-<td>邮政管理导论</td>
-<td>94</td>
-<td>4.40</td>
-</tr>
-<tr>
-<td>大学生心理健康</td>
-<td>95</td>
-<td>4.50</td>
-</tr>
-<tr>
-<td>总学分24.50</td>
-<td>已修学分24.50</td>
-<td>平均绩点4.08排名（8/61） 13%</td>
-</tr>
-</tbody></table>
-]]></content>
-      <tags>
-        <tag>瞎叽霸乱写的</tag>
-      </tags>
   </entry>
 </search>
