@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 5.4.2">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha256-Z1K5uhUaJXA7Ll0XrZ/0JhX4lAtZFpT6jkKrEDT0drU=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.14.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":true,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content=".calendar-todo {   --calendar-ink: #263238;   --calendar-muted: #718096;   --calendar-line: #d9e2e7;   --calendar-accent: #bd5b42;   --calendar-accent-soft: #f5e4de;   --calendar-paper: #fffdf8;   co">
+<meta property="og:type" content="website">
+<meta property="og:title" content="日历待办">
+<meta property="og:url" content="http://example.com/calendar/index.html">
+<meta property="og:site_name" content="HuangDaFan的Blog">
+<meta property="og:description" content=".calendar-todo {   --calendar-ink: #263238;   --calendar-muted: #718096;   --calendar-line: #d9e2e7;   --calendar-accent: #bd5b42;   --calendar-accent-soft: #f5e4de;   --calendar-paper: #fffdf8;   co">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-10-03T11:48:44.583Z">
+<meta property="article:modified_time" content="2026-10-03T11:48:44.583Z">
+<meta property="article:author" content="huangdafan">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://example.com/calendar/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":"","permalink":"http://example.com/calendar/index.html","path":"calendar/index.html","title":"日历待办"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>日历待办 | HuangDaFan的Blog
+</title>
+  
+
+
+
+
+
+
+
+<script async src="/lib/fireworks.js"></script>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">HuangDaFan的Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-calendar"><a href="/calendar/" rel="section"><i class="fa fa-calendar fa-fw"></i>calendar</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">日历待办</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.1.</span> <span class="nav-text"></span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="huangdafan"
+      src="/images/avatar-custom.gif">
+  <p class="site-author-name" itemprop="name">huangdafan</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Dafan-Huang" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Dafan-Huang" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:hf2409630293@gmail.com" title="E-Mail → mailto:hf2409630293@gmail.com" rel="noopener me" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="sidebar-inner sidebar-blogroll">
+      <div class="links-of-blogroll animated">
+        <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+          链接
+        </div>
+        <ul class="links-of-blogroll-list">
+            <li class="links-of-blogroll-item">
+              <a href="http://motions.cat/" title="http:&#x2F;&#x2F;motions.cat&#x2F;" rel="noopener" target="_blank">EverydayOneCat!</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner page posts-expand">
+
+
+    
+    
+    
+    <div class="post-block" lang="zh-CN"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">日历待办
+</h1>
+
+<div class="post-meta-container">
+</div>
+
+</header>
+
+      
+      
+      <div class="post-body">
+          <style>
+.calendar-todo {
+  --calendar-ink: #263238;
+  --calendar-muted: #718096;
+  --calendar-line: #d9e2e7;
+  --calendar-accent: #bd5b42;
+  --calendar-accent-soft: #f5e4de;
+  --calendar-paper: #fffdf8;
+  color: var(--calendar-ink);
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.calendar-todo * {
+  box-sizing: border-box;
+}
+
+.calendar-todo__header {
+  align-items: flex-end;
+  border-bottom: 1px solid var(--calendar-line);
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding-bottom: 18px;
+}
+
+.calendar-todo__eyebrow {
+  color: var(--calendar-accent);
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin: 0 0 6px;
+  text-transform: uppercase;
+}
+
+.calendar-todo h1 {
+  color: var(--calendar-ink);
+  font-size: 28px;
+  margin: 0;
+}
+
+.calendar-todo__summary {
+  color: var(--calendar-muted);
+  font-size: 13px;
+  margin: 8px 0 0;
+}
+
+.calendar-todo__today,
+.calendar-todo__nav button,
+.calendar-todo__add button,
+.calendar-todo__delete {
+  border: 1px solid var(--calendar-line);
+  border-radius: 3px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.calendar-todo__today,
+.calendar-todo__nav button {
+  background: transparent;
+  color: var(--calendar-ink);
+  min-height: 36px;
+  padding: 7px 12px;
+}
+
+.calendar-todo__today:hover,
+.calendar-todo__nav button:hover {
+  border-color: var(--calendar-accent);
+  color: var(--calendar-accent);
+}
+
+.calendar-todo__layout {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: minmax(0, 1.35fr) minmax(260px, .65fr);
+}
+
+.calendar-todo__calendar,
+.calendar-todo__tasks {
+  background: var(--calendar-paper);
+  border: 1px solid var(--calendar-line);
+  padding: 18px;
+}
+
+.calendar-todo__monthbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.calendar-todo__month {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.calendar-todo__nav {
+  display: flex;
+  gap: 6px;
+}
+
+.calendar-todo__nav button {
+  font-size: 18px;
+  line-height: 1;
+  padding: 7px 11px;
+}
+
+.calendar-todo__weekdays,
+.calendar-todo__days {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.calendar-todo__weekdays {
+  color: var(--calendar-muted);
+  font-size: 12px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.calendar-todo__days button {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  color: var(--calendar-ink);
+  cursor: pointer;
+  min-height: 58px;
+  padding: 7px 4px;
+  position: relative;
+  text-align: left;
+}
+
+.calendar-todo__days button:hover,
+.calendar-todo__days button[aria-selected="true"] {
+  background: var(--calendar-accent-soft);
+  border-color: var(--calendar-accent);
+}
+
+.calendar-todo__days button.is-muted {
+  color: #aeb9be;
+}
+
+.calendar-todo__days button.is-today strong {
+  background: var(--calendar-accent);
+  border-radius: 50%;
+  color: #fff;
+  display: inline-grid;
+  height: 24px;
+  place-items: center;
+  width: 24px;
+}
+
+.calendar-todo__days strong {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  width: 24px;
+}
+
+.calendar-todo__dots {
+  bottom: 7px;
+  display: flex;
+  gap: 3px;
+  left: 8px;
+  position: absolute;
+}
+
+.calendar-todo__dot {
+  background: var(--calendar-accent);
+  border-radius: 50%;
+  height: 5px;
+  width: 5px;
+}
+
+.calendar-todo__tasks h2 {
+  border-bottom: 1px solid var(--calendar-line);
+  font-size: 18px;
+  margin: 0 0 16px;
+  padding-bottom: 14px;
+}
+
+.calendar-todo__add {
+  display: flex;
+  gap: 7px;
+  margin-bottom: 16px;
+}
+
+.calendar-todo__add input {
+  background: #fff;
+  border: 1px solid var(--calendar-line);
+  border-radius: 3px;
+  color: var(--calendar-ink);
+  flex: 1;
+  min-width: 0;
+  padding: 9px 10px;
+}
+
+.calendar-todo__add input:focus {
+  border-color: var(--calendar-accent);
+  outline: 2px solid var(--calendar-accent-soft);
+}
+
+.calendar-todo__add button {
+  background: var(--calendar-accent);
+  border-color: var(--calendar-accent);
+  color: #fff;
+  padding: 8px 13px;
+}
+
+.calendar-todo__add button:hover {
+  background: #98452f;
+}
+
+.calendar-todo__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.calendar-todo__item {
+  align-items: flex-start;
+  border-bottom: 1px solid #edf1f2;
+  display: flex;
+  gap: 9px;
+  padding: 10px 0;
+}
+
+.calendar-todo__item:last-child {
+  border-bottom: 0;
+}
+
+.calendar-todo__item input {
+  accent-color: var(--calendar-accent);
+  margin-top: 4px;
+}
+
+.calendar-todo__item label {
+  flex: 1;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.calendar-todo__item.is-done label {
+  color: var(--calendar-muted);
+  text-decoration: line-through;
+}
+
+.calendar-todo__delete {
+  background: transparent;
+  border-color: transparent;
+  color: var(--calendar-muted);
+  font-size: 16px;
+  line-height: 1;
+  padding: 2px 5px;
+}
+
+.calendar-todo__delete:hover {
+  color: var(--calendar-accent);
+}
+
+.calendar-todo__empty {
+  color: var(--calendar-muted);
+  font-size: 13px;
+  margin: 18px 0 0;
+}
+
+@media (max-width: 767px) {
+  .calendar-todo__header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .calendar-todo__layout {
+    grid-template-columns: 1fr;
+  }
+
+  .calendar-todo__calendar,
+  .calendar-todo__tasks {
+    padding: 12px;
+  }
+
+  .calendar-todo__days button {
+    min-height: 48px;
+  }
+}
+</style>
+
+<div class="calendar-todo" data-calendar-todo>
+  <header class="calendar-todo__header">
+    <div>
+      <p class="calendar-todo__eyebrow">Plan your days</p>
+      <h1><span id="日历待办">日历待办</span></h1>
+      <p class="calendar-todo__summary">把想做的事放在具体的一天。</p>
+    </div>
+    <button class="calendar-todo__today" type="button" data-today>回到今天</button>
+  </header>
+
+  <div class="calendar-todo__layout">
+    <section class="calendar-todo__calendar" aria-label="月历">
+      <div class="calendar-todo__monthbar">
+        <h2 class="calendar-todo__month" data-month><span id></span></h2>
+        <div class="calendar-todo__nav">
+          <button type="button" data-previous aria-label="上个月">‹</button>
+          <button type="button" data-next aria-label="下个月">›</button>
+        </div>
+      </div>
+      <div class="calendar-todo__weekdays" aria-hidden="true">
+        <span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span>
+      </div>
+      <div class="calendar-todo__days" data-days role="grid" aria-label="日期"></div>
+    </section>
+
+<pre><code>&lt;section class=&quot;calendar-todo__tasks&quot; aria-live=&quot;polite&quot;&gt;
+  &lt;h2 data-selected-heading&gt;当天待办&lt;/h2&gt;
+  &lt;form class=&quot;calendar-todo__add&quot; data-add-form&gt;
+    &lt;input type=&quot;text&quot; data-task-input maxlength=&quot;120&quot; placeholder=&quot;添加一件事...&quot; aria-label=&quot;待办内容&quot;&gt;
+    &lt;button type=&quot;submit&quot;&gt;添加&lt;/button&gt;
+  &lt;/form&gt;
+  &lt;ul class=&quot;calendar-todo__list&quot; data-task-list&gt;&lt;/ul&gt;
+  &lt;p class=&quot;calendar-todo__empty&quot; data-empty&gt;这一天还没有待办。&lt;/p&gt;
+&lt;/section&gt;
+</code></pre>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.querySelector('[data-calendar-todo]');
+  if (!root) return;
+
+  var storageKey = 'huangdafan-calendar-todos';
+  var state = { selected: new Date(), viewed: new Date(), todos: {} };
+  var monthNames = ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'];
+  var monthTitle = root.querySelector('[data-month]');
+  var days = root.querySelector('[data-days]');
+  var heading = root.querySelector('[data-selected-heading]');
+  var taskList = root.querySelector('[data-task-list]');
+  var empty = root.querySelector('[data-empty]');
+  var input = root.querySelector('[data-task-input]');
+
+  function dateKey(date) {
+    return [date.getFullYear(), String(date.getMonth() + 1).padStart(2, '0'), String(date.getDate()).padStart(2, '0')].join('-');
+  }
+
+  function parseKey(key) {
+    var parts = key.split('-').map(Number);
+    return new Date(parts[0], parts[1] - 1, parts[2]);
+  }
+
+  function sameDate(first, second) {
+    return dateKey(first) === dateKey(second);
+  }
+
+  function loadTodos() {
+    try {
+      state.todos = JSON.parse(localStorage.getItem(storageKey) || '{}');
+    } catch (error) {
+      state.todos = {};
+    }
+  }
+
+  function saveTodos() {
+    localStorage.setItem(storageKey, JSON.stringify(state.todos));
+  }
+
+  function renderCalendar() {
+    var year = state.viewed.getFullYear();
+    var month = state.viewed.getMonth();
+    var firstDay = new Date(year, month, 1).getDay();
+    var lastDate = new Date(year, month + 1, 0).getDate();
+    var previousLastDate = new Date(year, month, 0).getDate();
+    var cells = [];
+
+    monthTitle.textContent = year + '年 ' + monthNames[month];
+    for (var index = 0; index < 42; index += 1) {
+      var dayNumber = index - firstDay + 1;
+      var cellDate = new Date(year, month, dayNumber);
+      var isCurrentMonth = dayNumber > 0 && dayNumber <= lastDate;
+      var label = cellDate.toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' });
+      var todoCount = (state.todos[dateKey(cellDate)] || []).length;
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.setAttribute('role', 'gridcell');
+      button.setAttribute('aria-label', label + (todoCount ? '，' + todoCount + ' 项待办' : ''));
+      button.setAttribute('aria-selected', sameDate(cellDate, state.selected) ? 'true' : 'false');
+      button.dataset.date = dateKey(cellDate);
+      if (!isCurrentMonth) button.classList.add('is-muted');
+      if (sameDate(cellDate, new Date())) button.classList.add('is-today');
+      button.innerHTML = '<strong>' + cellDate.getDate() + '</strong>' + (todoCount ? '<span class="calendar-todo__dots" aria-hidden="true"><i class="calendar-todo__dot"></i></span>' : '');
+      button.addEventListener('click', function () {
+        state.selected = parseKey(this.dataset.date);
+        state.viewed = new Date(state.selected.getFullYear(), state.selected.getMonth(), 1);
+        render();
+      });
+      cells.push(button);
+    }
+    days.replaceChildren.apply(days, cells);
+  }
+
+  function renderTasks() {
+    var key = dateKey(state.selected);
+    var items = state.todos[key] || [];
+    heading.textContent = state.selected.toLocaleDateString('zh-CN', { month: 'long', day: 'numeric' }) + ' 待办';
+    empty.hidden = items.length > 0;
+    taskList.replaceChildren();
+
+    items.forEach(function (item) {
+      var row = document.createElement('li');
+      var checkbox = document.createElement('input');
+      var label = document.createElement('label');
+      var remove = document.createElement('button');
+      checkbox.type = 'checkbox';
+      checkbox.checked = item.done;
+      checkbox.setAttribute('aria-label', '完成 ' + item.text);
+      label.textContent = item.text;
+      remove.type = 'button';
+      remove.className = 'calendar-todo__delete';
+      remove.innerHTML = '&times;';
+      remove.title = '删除待办';
+      remove.setAttribute('aria-label', '删除 ' + item.text);
+      row.className = 'calendar-todo__item' + (item.done ? ' is-done' : '');
+      checkbox.addEventListener('change', function () {
+        item.done = checkbox.checked;
+        saveTodos();
+        renderTasks();
+      });
+      remove.addEventListener('click', function () {
+        state.todos[key] = items.filter(function (candidate) { return candidate.id !== item.id; });
+        saveTodos();
+        render();
+      });
+      row.append(checkbox, label, remove);
+      taskList.appendChild(row);
+    });
+  }
+
+  function render() {
+    renderCalendar();
+    renderTasks();
+  }
+
+  root.querySelector('[data-previous]').addEventListener('click', function () {
+    state.viewed = new Date(state.viewed.getFullYear(), state.viewed.getMonth() - 1, 1);
+    renderCalendar();
+  });
+
+  root.querySelector('[data-next]').addEventListener('click', function () {
+    state.viewed = new Date(state.viewed.getFullYear(), state.viewed.getMonth() + 1, 1);
+    renderCalendar();
+  });
+
+  root.querySelector('[data-today]').addEventListener('click', function () {
+    state.selected = new Date();
+    state.viewed = new Date(state.selected.getFullYear(), state.selected.getMonth(), 1);
+    render();
+  });
+
+  root.querySelector('[data-add-form]').addEventListener('submit', function (event) {
+    event.preventDefault();
+    var text = input.value.trim();
+    if (!text) return;
+    var key = dateKey(state.selected);
+    state.todos[key] = state.todos[key] || [];
+    state.todos[key].push({ id: Date.now(), text: text, done: false });
+    saveTodos();
+    input.value = '';
+    render();
+    input.focus();
+  });
+
+  loadTodos();
+  render();
+})();
+</script>
+
+      </div>
+      
+      
+      
+    </div>
+
+    
+    
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2026</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">huangdafan</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">3k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span>站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">10 分钟</span>
+  </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="https://cdnjs.cloudflare.com/ajax/libs/ribbon.js/1.0.2/ribbon.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"all","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+
+</body>
+</html>
